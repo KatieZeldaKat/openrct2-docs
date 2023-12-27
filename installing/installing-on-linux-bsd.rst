@@ -33,13 +33,15 @@ You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`
 Ubuntu, Linux Mint and derivatives
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-We have provided a PPA for OpenRCT2. These instructions must be executed from a Terminal. You must first pick between release and develop builds.
+We have provided a PPA for OpenRCT2. These instructions must be executed from a Terminal.
 
-If you prefer release builds, use this:
-``sudo add-apt-repository ppa:openrct2/nightly``
+You must first pick between release and develop builds:
 
-If you prefer develop builds, use this:
-``sudo add-apt-repository ppa:openrct2/nightly``
+- If you prefer release builds, use this: ``sudo add-apt-repository ppa:openrct2/master``
+- If you prefer develop builds, use this: ``sudo add-apt-repository ppa:openrct2/nightly``
+
+Next, update the repository:
+``sudo apt update``
 
 Then, install OpenRCT2:
 ``sudo apt install openrct2``
